@@ -11,6 +11,7 @@ Take one down and pass it around, 98 bottles of beer on the wall.
 // } while ( i < 0 );
 
 let x = 99
+
 do {
 	//console.log( x )
 	let y=x-1

@@ -9,6 +9,7 @@ of 5 with buzz. Repeat until you reach your ceiling. So, if our ceiling were 20,
 let x=process.argv.toString().split(",")
 
 let string = " "
+
 for (let i=1; i<=x[2]; i++) {
 
 	if (i%3==0)	 {
