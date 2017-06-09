@@ -21,9 +21,14 @@ If #canvas is 500 x 500, how many 10 x 10 squares can we fit in to it?
 How we we create elements in JavaScript and add them to the page?
 
 */
+let pxCanvas = document.querySelector("#canvas");
+height = 2500;
 
-
-
+for (let x=0; x< height; x++){
+	let square = document.createElement("div");
+	square.setAttribute("class", "square");
+	pxCanvas.appendChild(square);
+}
 /*
 
 Step 2: Form Event
@@ -38,7 +43,22 @@ hints:
 (4) once you have the input field, it's current value is stored in the value property
 
 */
+let colorBox = document.querySelector("#color-field");
+let colorBtn = document.querySelector("#set-color");
+let currentColor;
 
+colorBtn.addEventListener("click", function(e) {
+	e.preventDefault();
+	let colorVal = colorBox.value;
+	alert(colorVal);
+})
+
+colorBox.addEventListener("onkeypress", function(e) {
+	if (e.keyCode === 13){
+		let colorVal = colorBox.value;
+		alert(colorVal);	
+	}
+})
 
 
 /*
@@ -51,3 +71,9 @@ Hints:
 (2) think about what event we might want to attach our event handler too; what mouse events are there that might make sense?
 
 */
+canvas.addEventListener('mouseover', function( e ) {
+	if (e.target.className === 'square'){
+		e.target.style.background = currentColor;
+	}
+	
+})
