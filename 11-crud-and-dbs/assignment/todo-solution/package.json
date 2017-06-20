@@ -1,5 +1,5 @@
 {
-  "name": "in-class",
+  "name": "todo-solution",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,10 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^4.9.4",
-    "nodemon": "^1.11.0"
+    "mongoose": "^4.10.6"
   }
 }
