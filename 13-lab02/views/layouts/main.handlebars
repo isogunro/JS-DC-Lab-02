@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tunr - Worlds #1 music web app</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.15/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css" />
+  <link rel="stylesheet" href="/main.css" />    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.15/css/dataTables.bootstrap4.css" />
+    <script>
+    $(document).ready(function() {
+    	$('#tblArtist').DataTable();
+    });
+    </script>
+  </head>
+  <body>
+  <table>
+	<tr>
+		<td><a href="/artist/new">Add an Artist</a>&nbsp;</td>
+		<td>&nbsp;<a href="/">Artist List</a></td>
+	</tr>
+  </table>
+    {{{ body }}}
+
+  </body>
+</html>

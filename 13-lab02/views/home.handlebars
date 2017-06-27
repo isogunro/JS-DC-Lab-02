@@ -1,0 +1,32 @@
+<table id="tblArtist" class="display" cellspacing="0" width="100%" border="1">
+<thead>
+	<tr>
+    <th></th>
+    <th></th>
+		<th>Name</th>
+		<th>Album</th>
+		<th>Songs</th>
+	</tr>
+</thead>	
+<tbody>
+{{#each artists }}
+  <tr>
+    <td>
+      <a href="/artist/{{ _id }}">Edit</a>
+    </td>
+    <td>
+     <a href="">Details</a>
+    </td>
+    <td>
+      {{name}} 
+    </th>
+    <td>
+      {{albums}}
+    </td>
+    <td>
+      {{songs}}
+    </td>
+  </tr>
+{{/each}}
+</tbody>
+</table>

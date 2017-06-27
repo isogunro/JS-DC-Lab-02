@@ -1,0 +1,19 @@
+{
+  "name": "13-lab02",
+  "version": "1.0.0",
+  "description": "You can find your lab [here](https://github.com/ga-students/JS-DC-Lab-02)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "datatables.net": "^1.10.15",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "jquery": "^3.2.1",
+    "mongoose": "^4.11.0"
+  }
+}
