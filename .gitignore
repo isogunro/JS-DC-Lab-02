@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 .DS_Store
 \_*
 notes.md
 node_modules
 *.swp
 *.un~
+=======
+node_modules
+_*
+>>>>>>> d1b9e72316d087f802add7ddd42563f0ed2edd43
